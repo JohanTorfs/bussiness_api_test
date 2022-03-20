@@ -23,5 +23,17 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Publish
-      run: dotnet publish -r win-x64 --configuration ReleaseComplete
+    - name: Publish for Windows
+      run: dotnet publish -r win-x64 -c ReleaseComplete /p:PublishSingleFile=true /p:PublishTrimmed=true
+    - name: Publish for Linux
+      run: dotnet publish -r linux-x64 --configuration ReleaseComplete
+    - name: Upload Artifact - Windows
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: bussiness_api_test.exe
+        path: bussiness_api_test/bin/ReleaseComplete/net6.0/win-x64/publish/bussiness_api_test.exe
+    - name: Upload Artifact - Linux
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: bussiness_api_test.exe
+        path: bussiness_api_test/bin/ReleaseComplete/net6.0/linux-x64/publish/bussiness_api_test.exe
