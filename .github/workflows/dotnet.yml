@@ -30,10 +30,10 @@ jobs:
     - name: Upload Artifact - Windows
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: bussiness_api_test.exe
-        path: bussiness_api_test/bin/ReleaseComplete/net6.0/win-x64/publish/bussiness_api_test.exe
+        name: bussiness_api_test
+        path: bin/ReleaseComplete/net6.0/win-x64/publish/bussiness_api_test.exe
     - name: Upload Artifact - Linux
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: bussiness_api_test.exe
-        path: bussiness_api_test/bin/ReleaseComplete/net6.0/linux-x64/publish/bussiness_api_test.exe
+        name: bussiness_api_test
+        path: bin/ReleaseComplete/net6.0/linux-x64/publish/bussiness_api_test.exe
