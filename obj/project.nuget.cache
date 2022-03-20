@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MnrM6+nkLYv3jsME8hmgOwQf5j4eRvOsoroAWhYRuSpqY7xaBZ6uNY3uTdvgI9ouaDokAbGKhtqcQK5WeTkMZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JophanTorfs\\VSCode .NET\\bussiness_api_test\\bussiness_api_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JophanTorfs\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\JophanTorfs\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\JophanTorfs\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\JophanTorfs\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\JophanTorfs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\JophanTorfs\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
